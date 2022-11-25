@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    position:relative ;
+    overflow: hidden;
+    background-color:white;
+    scroll-behavior:smooth;
+    display: grid;
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display:flex;
+    align-items: center;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+    transition: all 0.3s;
+    text-align: left;
+}
+.nav-links ul li a:hover{
+    width: 20px;
+    color: red;
+    
+}
+div.content img{
+    position: relative; 
+    width: 900px;
+    height: 200px ;
+}
+div.content p{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+div.content .cont p :hover{
+    margin: 0;
+    color: #E03888;
+    width: auto;
+
+
+}
+div.content h1{
+    margin: 0;
+    text-decoration: none;
+    font-size: 40px;
+}
+div.content h1:hover{
+    width:auto;
+    color: red;
+}
+#check{
+    display: none;
+
+}
+.bg1{
+    display: none;
+    transition: 0,5s linear;
+    float: right;
+
+}
+label{ 
+    margin-top: 0;
+    display:inline-block;
+    margin-left: 300px;
+    color:black;
+    text-decoration: none;
+    border-style:groove;
+    border-color: red;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    
+}
+#check:checked ~ .bg1{
+    display:inline-block;
+}
+.dropdown__menu{
+    display: none;
+}
+.nav-links ul li:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 100%;
+    background-color: wheat;
+    
+
+}
+.nav-links ul li:hover .dropdown__menu ul {
+    display: block;
+    margin: 10px;
+}
+.nav-links ul li:hover .dropdown__menu ul li{
+      width: 100px;
+      padding: 10px;  
+}
+.nav-links h1{
+    margin-top: 0;
+    font-size: 70px;
+    font-style:normal;
+    font-family: monospace;
+    display: inline-block;
+    position:fixed;
+    text-align: left;
+
+} 
+div.bg2{
+    background-color: black;
+    font-family: monospace;
+    text-decoration: none;
+    color:white;
+    border: ridge;
+    position: relative;
+    margin: left 650px;
+    text-align:center;
+    margin-right: 40px;
+    float: right;
+}
+div.im img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+div.im h3{
+    position: relative;
+    display: inline;
+}
+
+   
+
